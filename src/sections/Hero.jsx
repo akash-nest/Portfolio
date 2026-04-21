@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import { FaGithub, FaLinkedin, FaDownload, FaArrowDown, FaCodeBranch, FaAward } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
-import heroAvatar from "../assets/hero_png.png";
+import heroAvatar from "../assets/Hero_png.png";
 
 const resumeFilePath = "/Akash B_Resume.pdf";
 
