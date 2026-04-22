@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaDownload, FaArrowDown, FaCodeBranch, FaAward } 
 import Typewriter from "typewriter-effect";
 import heroAvatar from "../assets/Hero_png.png";
 
-const resumeFilePath = "/Akash B_Resume.pdf";
+const resumeFilePath = "/Akash_Resume.pdf";
 
 const Hero = () => {
     return (
