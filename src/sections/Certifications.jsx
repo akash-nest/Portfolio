@@ -390,14 +390,6 @@ const Certifications = () => {
                                                                     {selectedCert.date}
                                                                 </p>
                                                             </div>
-                                                            <div>
-                                                                <p className="text-text-secondary/55 text-[11px] uppercase tracking-[0.2em] font-mono mb-1">
-                                                                    Image Path
-                                                                </p>
-                                                                <p className="text-text-secondary text-sm break-all">
-                                                                    {selectedCert.image}
-                                                                </p>
-                                                            </div>
                                                         </div>
                                                     </div>
 

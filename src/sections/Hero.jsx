@@ -129,18 +129,7 @@ const Hero = () => {
                             </motion.div>
 
                             {/* STAT 2: Tech Stack (Middle Left) */}
-                            <motion.div
-                                animate={{ y: [0, 15, 0], x: [0, -10, 0] }}
-                                transition={{ repeat: Infinity, duration: 5, ease: "easeInOut", delay: 1 }}
-                                whileHover={{ scale: 1.1 }}
-                                className="absolute top-1/3 left-0 md:-left-16 z-30 bg-primary/60 border border-white/10 p-2 md:p-4 backdrop-blur-md shadow-2xl flex items-center gap-2 md:gap-3"
-                            >
-                                <div className="p-2 bg-accent/20 text-accent rounded-lg animate-pulse">⚛️</div>
-                                <div>
-                                    <p className="text-white text-[10px] font-bold leading-none">Modern Stack</p>
-                                    <p className="text-text-secondary text-[8px] font-mono">React / Python</p>
-                                </div>
-                            </motion.div>
+                           
 
                             {/* STAT 3: Experience/Education (Bottom Right) */}
                             <motion.div
