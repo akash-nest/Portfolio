@@ -114,11 +114,11 @@ const Certifications = () => {
             <div className="absolute top-1/2 right-0 w-80 h-80 rounded-full blur-3xl pointer-events-none"
                 style={{ background: "radial-gradient(circle, rgba(240,192,64,0.05) 0%, transparent 70%)" }} />
 
-            <div className="container mx-auto px-6 lg:px-16 relative z-10">
+            <div className="container mx-auto px-4 sm:px-6 lg:px-16 relative z-10">
                 <div className="flex flex-col lg:flex-row items-start justify-between gap-16">
                     
                     {/* ════ LEFT: Content ════ */}
-                    <div className="flex gap-8 md:gap-12 items-start w-full lg:w-[40%] lg:sticky lg:top-32">
+                    <div className="flex gap-6 md:gap-12 items-start w-full lg:w-[40%] lg:sticky lg:top-32">
                         {/* Side Info Bar */}
                         <motion.div 
                             initial={{ opacity: 0, y: 50 }}
@@ -145,11 +145,11 @@ const Certifications = () => {
                                     <span className="text-accent text-xs uppercase tracking-[0.4em] font-mono">My Journey</span>
                                 </div>
                                 
-                                <h1 className="text-5xl md:text-6xl lg:text-7xl font-heading font-black text-text-primary leading-none mb-6">
+                                <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-black text-text-primary leading-none mb-6">
                                     Certifications
                                     <br />
-                                    <span className="text-transparent stroke-text" style={{ WebkitTextStroke: "1px #f0c040" }}> & Awards</span>
-                                </h1>
+                                    <span className="text-transparent stroke-text" style={{ WebkitTextStroke: "1px #f0c040" }}> &amp; Awards</span>
+                                </h2>
                             </motion.div>
 
                             <motion.p 
@@ -157,7 +157,7 @@ const Certifications = () => {
                                 whileInView={{ opacity: 1 }}
                                 viewport={{ once: true }}
                                 transition={{ delay: 0.4 }}
-                                className="text-text-secondary text-lg max-w-sm mb-6 leading-relaxed border-l-2 border-accent/20 pl-6"
+                                className="text-text-secondary text-sm sm:text-base lg:text-lg max-w-sm mb-6 leading-relaxed border-l-2 border-accent/20 pl-4 sm:pl-6"
                             >
                                 A continuous pursuit of <span className="text-white"> knowledge and mastery </span> across modern technologies.
                             </motion.p>

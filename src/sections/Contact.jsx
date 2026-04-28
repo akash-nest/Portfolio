@@ -28,10 +28,10 @@ const Contact = () => (
 
         {/* ── Content ── */}
         <div className="container mx-auto px-6 lg:px-16 max-w-7xl relative z-10 w-full">
-            <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-16 lg:gap-8 min-h-[400px]">
+            <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-10 lg:gap-8">
 
                 {/* ════ LEFT: Content (Sticky) ════ */}
-                <div className="flex gap-8 md:gap-12 items-start w-full lg:w-[40%] lg:sticky lg:top-32">
+                <div className="flex gap-6 md:gap-12 items-start w-full lg:w-[40%] lg:sticky lg:top-32">
                     {/* Side Info Bar */}
                     <motion.div 
                         initial={{ opacity: 0, y: 50 }}
@@ -58,11 +58,11 @@ const Contact = () => (
                                 <span className="text-accent text-xs uppercase tracking-[0.4em] font-mono">sys.CONTACT_v4</span>
                             </div>
                             
-                            <h1 className="text-5xl md:text-7xl font-heading font-black text-text-primary leading-none mb-6">
+                            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-heading font-black text-text-primary leading-none mb-6">
                                 Let's Work
                                 <br />
                                 <span className="text-transparent stroke-text" style={{ WebkitTextStroke: "1px #f0c040" }}> Together</span>
-                            </h1>
+                            </h2>
                         </motion.div>
 
                         <motion.div 
@@ -70,7 +70,7 @@ const Contact = () => (
                             whileInView={{ opacity: 1 }}
                             viewport={{ once: true }}
                             transition={{ delay: 0.4 }}
-                            className="space-y-4 text-text-secondary text-base leading-relaxed border-l-2 border-accent/20 pl-6 mb-10"
+                            className="space-y-4 text-text-secondary text-sm sm:text-base leading-relaxed border-l-2 border-accent/20 pl-4 sm:pl-6 mb-8 sm:mb-10"
                         >
                             <p>
                                I’m always open to building impactful and meaningful solutions.
@@ -87,7 +87,7 @@ Whether it’s Full Stack Development or AI-driven applications, feel free to re
                 </div>
 
                 {/* ════ RIGHT: Interactive Form Box ════ */}
-                <div className="relative w-full lg:w-[48%] mt-8 lg:mt-0 flex flex-col justify-center">
+                <div className="relative w-full lg:w-[48%] mt-4 lg:mt-0 flex flex-col justify-center">
                     <motion.div
                         initial={{ opacity: 0, y: 24 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -129,7 +129,7 @@ Whether it’s Full Stack Development or AI-driven applications, feel free to re
                                 transition={{ duration: 0.5, delay: 0.1 }}
                                 className="relative mb-5"
                             >
-                                <div className="w-40 h-40 md:w-24 md:h-24 rounded-full p-1 bg-gradient-to-tr from-[#f0c040] to-accent/50 shadow-xl">
+                                <div className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-full p-1 bg-gradient-to-tr from-[#f0c040] to-accent/50 shadow-xl">
                                     <div className="w-full h-full rounded-full overflow-hidden bg-primary">
                                         <img 
                                             src={profilePic} 
