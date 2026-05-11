@@ -75,7 +75,7 @@ const Hero = () => {
                                 className="text-text-secondary text-sm sm:text-base lg:text-lg max-w-md mb-8 sm:mb-10 leading-relaxed border-l-2 border-accent/20 pl-4 sm:pl-6"
                             >
                                 Building intelligent web applications by combining modern
-                                <span className="text-white"> full-stack development </span>
+                                <span className="text-white"> full-Stack development </span>
                                 with cutting-edge AI solutions.
                             </motion.p>
 
