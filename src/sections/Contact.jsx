@@ -43,7 +43,7 @@ const Contact = () => (
                             <FaTerminal size={22}/>
                         </div>
                         <div className="w-[1px] h-32 bg-gradient-to-b from-accent to-transparent" />
-                        <span className="vertical-text text-[10px] font-mono uppercase tracking-[0.4em] text-accent/50 rotate-180">Connect</span>
+                        <span className="vertical-text text-[10px] font-mono uppercase tracking-[0.4em] text-accent/50 rotate-180">Let's Connect</span>
                     </motion.div>
 
                     <div className="flex-1">
