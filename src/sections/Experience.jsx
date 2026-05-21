@@ -28,7 +28,7 @@ const experiences = [
         location: "Remote",
         type: "Internship",
         duration: "2026",
-        timeline: "January - April",
+        timeline: "January - May",
         accentColor: "#a855f7",
         glowColor: "rgba(168,85,247,0.15)",
         borderColor: "rgba(168,85,247,0.35)",
