@@ -34,7 +34,6 @@ const skills = [
     { name: "Flask", icon: <SiFlask />, iconColor: "#ffffff", category: "backend", desc: "Micro Web Framework" },
     { name: "FastAPI", icon: <SiFastapi />, iconColor: "#05998B", category: "backend", desc: "High-Performance APIs" },
     { name: "SQL", icon: <SiMysql />, iconColor: "#4479A1", category: "database", desc: "Relational Database (RDBMS)" },
-    { name: "Mongo DB", icon: <SiMongodb />, iconColor: "#47A248", category: "database", desc: "NoSQL Database" },
     { name: "Canva", icon: <SiCanva />, iconColor: "#00C4CC", category: "design", desc: "Visual Content Design" },
     { name: "Photoshop", icon: <SiAdobephotoshop />, iconColor: "#31A8FF", category: "design", desc: "Advanced Image Editing" },
     { name: "Illustrator", icon: <SiAdobeillustrator />, iconColor: "#FF9A00", category: "design", desc: "Vector Graphics & Logos" },
